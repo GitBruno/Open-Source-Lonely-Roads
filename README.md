@@ -1,5 +1,5 @@
 # Open Source Lonely Roads
-A modular Open Source power distribution board for Eurorack.
+An active modular Open Source power distribution board for Eurorack.
 
 ## Licence
 Open Source Lonely Roads by [Robert D Jordan](http://www.catfullofghosts.com/) and [Bruno Herfst](http://brunoherfst.com/) is licensed under a [Creative Commons Attribution 4.0 International License](LICENCE.md).
