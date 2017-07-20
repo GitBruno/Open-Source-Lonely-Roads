@@ -7,8 +7,9 @@
 - Wide range of voltage inputs solutions
 - Good heat handling/dissipation
 - Good price
+- Good documentation
 - readily avalible parts
-- A range of PCB manufaturing options (design not totaly resticted by super thick pcb or anykind of special treatment)
+- A range of PCB manufaturing options (design not totaly resticted by super thick pcb or any kind of special treatment)
 
 # TODO
 - Solve power input question
