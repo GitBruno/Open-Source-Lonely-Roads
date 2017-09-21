@@ -4,7 +4,7 @@
 "6","7812","Voltage Regulator","78MXXS"," "," ","511-L7812CV"," ","7812,1,4,7,10,13"
 "6","7912","Voltage Regulator","79XXS"," "," ","926-LM7912CT/NOPB"," ","3,6,9,12,15,7912"
 "6","220","Resistor","0207/5V"," "," ","594-5073NW220R0J"," ","R1,R4,R7,R10,R13,R16"
-"12","550","Resistor","0207/5V"," "," ","-"," ","R2,R3,R5,R6,R8,R9,R11,R12,R14,R15,R17,R18"
+"12","550","Resistor","0207/5V"," "," ","71-CPF1500R00FKE14","Arround 500/510 is fine too","R2,R3,R5,R6,R8,R9,R11,R12,R14,R15,R17,R18"
 "3","","Terminal","BANANA_CONN"," "," ","651-1985865"," ","SCREW_+15,SCREW_-15,SCREW_GND"
 "18","0.1uf","Capacitor","CAP-PTH-SMALL-KIT"," "," ","810-FG26C0G2A104JRT6"," ","C1,C2,C3,C6,C7,C12,C13,C14,C15,C19,C20,C21,C24,C25,C26,C29,C30,C31"
 "12","10uf","Capacitor","CPOL-RADIAL-10UF-25V"," "," ","647-UPW1E100MDD6"," ","C4,C5,C8,C9,C16,C17,C22,C23,C27,C28,C32,C33"
