@@ -18,3 +18,7 @@
 
 # DONE
 -first prototype built and tested
+
+# CONS
+-the system uses more power in standby then a passive system
+-the system is less efficient then a passive system (duh)
