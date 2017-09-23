@@ -1,0 +1,3 @@
+This is the first prototype design for the Lonely Roads active busboard.
+As such the component spacing is not ideal, it lacks some silk screen elements and also has a trace missing on the final power header,
+this and more will be addressed in V5, these files are here as a record of developments.
