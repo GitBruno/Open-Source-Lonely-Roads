@@ -13,6 +13,7 @@
 
 # TODO
 - Solve power input question
+- Re arrange pcb design for better spacing
 - Test prototype in system
 
 # DONE
