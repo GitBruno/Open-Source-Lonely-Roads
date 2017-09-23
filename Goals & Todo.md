@@ -13,4 +13,7 @@
 
 # TODO
 - Solve power input question
-- Finish and test 3 module prototype
+- Test prototype in system
+
+# DONE
+-first prototype built and tested
