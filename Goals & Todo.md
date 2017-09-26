@@ -16,6 +16,7 @@
 - Re arrange pcb design for better spacing
 - solve magic smoake from negitive input cap (16v may not be high enough on the caps, should have gone 30v+)
 - Test prototype in system
+- put diodes after fuses to stop flooding on a critical fail
 
 # DONE
 -first prototype built and tested
