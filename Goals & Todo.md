@@ -18,6 +18,7 @@
 
 # DONE
 -first prototype built and tested
+- fix error in v4 diode protection
 
 # CONS
 -the system uses more power in standby then a passive system
