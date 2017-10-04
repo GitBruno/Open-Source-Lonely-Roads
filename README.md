@@ -1,5 +1,5 @@
 # Open Source Lonely Roads
-An active modular Open Source power distribution board for Eurorack.
+An active linear power distribution board for Eurorack.
 
 > __WARNING!__ :zap: Please be aware of the risks associated with electronics and take relevant precautions.
 
