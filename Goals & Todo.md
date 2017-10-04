@@ -1,7 +1,7 @@
 # PROS
 - Ultra low noise
 - Ultra low inter-module noise
-- Protection + safty features
+- Protection + safety features
 - 3u boat compatible (not taller then 3u)
 - Standard 84hp (19") and 104hp compatible (not wider then 50hp)
 - Wide range of voltage input solutions
@@ -16,13 +16,12 @@
 -This system is less efficient then a passive system (duh)  
 
 # TODO
-- Solve power input question
-- Re arrange pcb design for better spacing
+- Solve power input question  
+- Re arrange pcb design for better spacing  
 - Make space for heatsinks  
-- Add switch to turn regulator/header on?  
-- Solve magic smoke from negative input cap (16v may not be high enough on the caps, should have gone 30v+)
-- Put diodes after fuses to stop flooding on a critical fail
-- Test prototype in system
+- Solve magic smoke from negative input cap (16v may not be high enough on the caps, should have gone 30v+)  
+- Put diodes after fuses to stop flooding on a critical fail  
+- Test prototype in system  
 
 # DONE
 - first prototype built and tested  
