@@ -14,13 +14,17 @@
 # CONS
 -This system uses more power in standby then a passive system  
 -This system is less efficient then a passive system (duh)  
+-This system does not distribute CV and gate signals
 
 # TODO
-- Solve power input question  
-- Re arrange pcb design for better spacing  
-- Make space for heatsinks  
+- Power Input 15–21V (15 is best, most laptop chargers are 19V)  
+- Re arrange pcb design for better spacing (Make space for heatsinks and bigger caps)  
+- Move bigger caps before regulators (Smaller noise caps behind is fine)  
+- Bigger caps on input rails  
 - Solve magic smoke from negative input cap (16v may not be high enough on the caps, should have gone 30v+)  
 - Put diodes after fuses to stop flooding on a critical fail  
+- Organise Open Source Certificate to link back here and create testing logs  
+- Update PCB silk layer before next prototype  
 - Test prototype in system  
 
 # DONE
