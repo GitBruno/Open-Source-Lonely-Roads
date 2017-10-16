@@ -17,7 +17,8 @@
 -This system does not distribute CV and gate signals
 
 # TODO
-- Power Input 15–21V (15 is best, most laptop chargers are 19V)  
+- Power Input 15–21V (15 is best, most laptop chargers are 19V) Surge capability value?  
+- Solve power input question for external power supply, TPS84259? 
 - Re arrange pcb design for better spacing (Make space for heatsinks and bigger caps)  
 - Move bigger caps before regulators (Smaller noise caps behind is fine)  
 - Bigger caps on input rails  
