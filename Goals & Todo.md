@@ -26,7 +26,10 @@
 - Put diodes after fuses to stop flooding on a critical fail  
 - Organise Open Source Certificate to link back here and create testing logs  
 - Update PCB silk layer before next prototype  
+- decision matrix on different configurations
 - Test prototype in system  
+- do death test with
+-clip on dc module with perf board
 
 # DONE
 - first prototype built and tested  
