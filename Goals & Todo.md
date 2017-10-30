@@ -8,13 +8,13 @@
 - Good heat handling/dissipation
 - Good price
 - Good documentation
-- readily avalible parts
+- Readily avalible parts
 - A range of PCB manufaturing options (design not totaly resticted by super thick pcb or any kind of special treatment)
 
 # CONS
--This system uses more power in standby then a passive system  
--This system is less efficient then a passive system (duh)  
--This system does not distribute CV and gate signals
+- This system uses more power in standby then a passive system  
+- This system is less efficient then a passive system (duh)  
+- ~~This system does not distribute CV and gate signals  
 
 # TODO
 - Power Input 15–21V (15 is best, most laptop chargers are 19V) Surge capability value?  
@@ -24,13 +24,18 @@
 - Bigger caps on input rails  
 - Solve magic smoke from negative input cap (16v may not be high enough on the caps, should have gone 30v+)  
 - Put diodes after fuses to stop flooding on a critical fail  
-- Organise Open Source Certificate to link back here and create testing logs  
+- Create place for testing logs  
 - Update PCB silk layer before next prototype  
-- decision matrix on different configurations
+- Create decision matrix on different configurations
 - Test prototype in system  
-- do death test with
--clip on dc module with perf board
+- Do death test with video  
+- Create clip on dc module with perf board (Test clipping strength)
+– Create Eagle clip on module template. And add specs to Wiki
+– Create Wiki entry on how to patch CV-GATE over busboard.
+– Add graphics to board, incl. OSHW cert brand and labeling
 
 # DONE
 - first prototype built and tested  
 - fix error in v4 diode protection  
+- Organise Open Source Certificate
+
