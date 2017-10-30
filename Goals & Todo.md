@@ -14,7 +14,7 @@
 # CONS
 - This system uses more power in standby then a passive system  
 - This system is less efficient then a passive system (duh)  
-- ~~This system does not distribute CV and gate signals  
+- ~~This system does not distribute CV and gate signals~~  
 
 # TODO
 - Power Input 15–21V (15 is best, most laptop chargers are 19V) Surge capability value?  
