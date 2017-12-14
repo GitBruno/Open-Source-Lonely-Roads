@@ -742,10 +742,11 @@ grid 15mm, 19649 Wickmann</description>
 <part name="T1" library="TEN_60-2423N" deviceset="TEN_60-2423N" device=""/>
 <part name="IC1" library="traco_thl_tel_series" deviceset="THL_20WI_SERIES" device=""/>
 <part name="NOPOSREG" library="resistor-shunt" deviceset="SMT-REF" device=""/>
-<part name="DC_IO" library="adafruit" deviceset="1X2" device="-3.5MM"/>
 <part name="F3" library="fuse" deviceset="GSH15" device=""/>
 <part name="DC_IN" library="adafruit" deviceset="1X2" device="-3.5MM"/>
 <part name="NOFUSE" library="resistor-shunt" deviceset="SMT-REF" device=""/>
+<part name="DC_IN1" library="adafruit" deviceset="1X2" device="-3.5MM"/>
+<part name="DC_IN2" library="adafruit" deviceset="1X2" device="-3.5MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -762,10 +763,11 @@ grid 15mm, 19649 Wickmann</description>
 <instance part="T1" gate="G$1" x="144.78" y="127"/>
 <instance part="IC1" gate="G$1" x="162.56" y="149.86"/>
 <instance part="NOPOSREG" gate="G$1" x="139.7" y="162.56" rot="R90"/>
-<instance part="DC_IO" gate="G$1" x="114.3" y="139.7" rot="R180"/>
 <instance part="F3" gate="1" x="127" y="149.86"/>
 <instance part="DC_IN" gate="G$1" x="114.3" y="149.86" rot="R180"/>
 <instance part="NOFUSE" gate="G$1" x="127" y="157.48" rot="R180"/>
+<instance part="DC_IN1" gate="G$1" x="220.98" y="160.02" rot="R180"/>
+<instance part="DC_IN2" gate="G$1" x="220.98" y="104.14" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -778,9 +780,10 @@ grid 15mm, 19649 Wickmann</description>
 <wire x1="233.68" y1="109.22" x2="233.68" y2="111.76" width="0.1524" layer="91"/>
 <junction x="233.68" y="111.76"/>
 <wire x1="233.68" y1="114.3" x2="233.68" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="114.3" x2="233.68" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="114.3" x2="231.14" y2="114.3" width="0.1524" layer="91"/>
 <junction x="210.82" y="114.3"/>
 <label x="241.3" y="109.22" size="1.778" layer="95"/>
+<wire x1="231.14" y1="114.3" x2="233.68" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="111.76" x2="246.38" y2="111.76" width="0.1524" layer="91"/>
 <label x="233.68" y="116.84" size="1.778" layer="95"/>
 <pinref part="T1" gate="G$1" pin="-VOUT"/>
@@ -792,6 +795,10 @@ grid 15mm, 19649 Wickmann</description>
 <wire x1="177.8" y1="152.4" x2="195.58" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="152.4" x2="195.58" y2="116.84" width="0.1524" layer="91"/>
 <junction x="195.58" y="116.84"/>
+<pinref part="DC_IN2" gate="G$1" pin="1"/>
+<wire x1="226.06" y1="101.6" x2="231.14" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="101.6" x2="231.14" y2="114.3" width="0.1524" layer="91"/>
+<junction x="231.14" y="114.3"/>
 </segment>
 </net>
 <net name="15IN" class="0">
@@ -799,7 +806,8 @@ grid 15mm, 19649 Wickmann</description>
 <pinref part="J2_+15" gate="-1" pin="1"/>
 <pinref part="J1_+15" gate="-1" pin="1"/>
 <wire x1="210.82" y1="139.7" x2="210.82" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="144.78" x2="233.68" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="144.78" x2="231.14" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="144.78" x2="233.68" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="144.78" x2="233.68" y2="139.7" width="0.1524" layer="91"/>
 <junction x="210.82" y="144.78"/>
 <wire x1="233.68" y1="139.7" x2="246.38" y2="139.7" width="0.1524" layer="91"/>
@@ -814,6 +822,10 @@ grid 15mm, 19649 Wickmann</description>
 <wire x1="139.7" y1="167.64" x2="210.82" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="167.64" x2="210.82" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="NOPOSREG" gate="G$1" pin="1"/>
+<pinref part="DC_IN1" gate="G$1" pin="2"/>
+<wire x1="226.06" y1="160.02" x2="231.14" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="160.02" x2="231.14" y2="144.78" width="0.1524" layer="91"/>
+<junction x="231.14" y="144.78"/>
 </segment>
 </net>
 <net name="NEGVIN" class="0">
@@ -826,16 +838,12 @@ grid 15mm, 19649 Wickmann</description>
 <wire x1="139.7" y1="152.4" x2="144.78" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="134.62" x2="127" y2="134.62" width="0.1524" layer="91"/>
 <junction x="139.7" y="134.62"/>
-<pinref part="DC_IO" gate="G$1" pin="1"/>
 <wire x1="127" y1="134.62" x2="121.92" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="137.16" x2="121.92" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="137.16" x2="121.92" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="DC_IN" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="147.32" x2="127" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="127" y1="147.32" x2="127" y2="134.62" width="0.1524" layer="91"/>
 <junction x="127" y="134.62"/>
 <wire x1="121.92" y1="134.62" x2="121.92" y2="129.54" width="0.1524" layer="91"/>
-<junction x="121.92" y="134.62"/>
 <label x="121.92" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -858,10 +866,7 @@ grid 15mm, 19649 Wickmann</description>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="DC_IO" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="139.7" x2="121.92" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="F3" gate="1" pin="1"/>
-<wire x1="121.92" y1="139.7" x2="121.92" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="DC_IN" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="149.86" x2="121.92" y2="149.86" width="0.1524" layer="91"/>
 <junction x="121.92" y="149.86"/>
@@ -869,10 +874,14 @@ grid 15mm, 19649 Wickmann</description>
 <wire x1="121.92" y1="149.86" x2="121.92" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="N$1" class="0">
 <segment>
+<pinref part="DC_IN1" gate="G$1" pin="1"/>
+<wire x1="226.06" y1="157.48" x2="226.06" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="DC_IN2" gate="G$1" pin="2"/>
 <pinref part="J3_GND" gate="-1" pin="1"/>
 <pinref part="J4_GND" gate="-1" pin="1"/>
+<wire x1="226.06" y1="129.54" x2="226.06" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="121.92" x2="210.82" y2="129.54" width="0.1524" layer="91"/>
 <junction x="210.82" y="129.54"/>
 <wire x1="210.82" y1="132.08" x2="210.82" y2="129.54" width="0.1524" layer="91"/>
@@ -884,12 +893,8 @@ grid 15mm, 19649 Wickmann</description>
 <wire x1="190.5" y1="124.46" x2="190.5" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="COMMON"/>
 <wire x1="187.96" y1="124.46" x2="190.5" y2="124.46" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$31" class="0">
-<segment>
-<wire x1="233.68" y1="129.54" x2="233.68" y2="124.46" width="0.1524" layer="91"/>
-<label x="233.68" y="132.08" size="1.778" layer="95"/>
+<wire x1="226.06" y1="129.54" x2="210.82" y2="129.54" width="0.1524" layer="91"/>
+<junction x="226.06" y="129.54"/>
 </segment>
 </net>
 </nets>
