@@ -5,4 +5,4 @@ So besides any +- 15v cage power supply the OSLR can be powered off:
 
 - Single 9-18v DC supply
 - Dual 15+v DC supplies (E.g. 2 laptop chargers)
-- Single 9-18v or 18-36v supply (Cheap!)
+- Single 14-36v supply (Cheap!)
