@@ -1,0 +1,3 @@
+An expander for the Lonely Roads that breaks out each individual eurorack power header into 2 right angle 16pin
+and one vertical 10pin header. Attaches ontop of Lonely Roads busboard like an arduino sheild.
+Each set of 3 power headers is isolated from all others.
