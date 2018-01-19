@@ -1,0 +1,3 @@
+A universal front pannel for the Lonely Roads.
+
+Capible of handaling single and double dc inputs as well as 240 ac input.
