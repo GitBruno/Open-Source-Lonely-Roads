@@ -26,3 +26,5 @@ Please read the [Wiki](https://github.com/GitBruno/Open-Source-Lonely-Roads/wiki
 Open Source Lonely Roads by [Robert D Jordan](http://www.catfullofghosts.com/) and [Bruno Herfst](http://brunoherfst.com/) is licensed under a [Creative Commons Attribution 4.0 International License](LICENCE.md).
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+![WaveGuides](https://github.com/waveguides/awg-graphics/raw/master/logos/awg/awg_diamond_gitfooter-grey.png)
